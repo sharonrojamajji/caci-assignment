@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaTrophy } from 'react-icons/fa';
 
 const Starship = ({ starship }) => {
     const starshipId = starship.url.match(/\d+/);
