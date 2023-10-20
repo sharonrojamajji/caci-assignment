@@ -8,10 +8,13 @@ const Starship = ({ starship }) => {
     <div className={`starship-container ${starship.mostFilms ? 'most-films' : ''}`}>
         <div className='starship-list-div-container'>
             <h2 className='startship-title'>{starship.name}
-                <span className='starship-trophy'>{starship.mostFilms ? <FaTrophy className="star-icon" /> : null}</span>
+               
             </h2>
             <p className='starship-model-title'>Model: {starship.model}</p>
             <p className='starship-films-title'>No. of Films: {starship.films.length}</p>
+        </div>
+        <div>
+            {starship.mostFilms ?<img className='star-trophy' src={require("../../images/trophy.png")} /> : null}
         </div>
         <div className='starship-img-container'>
             <img
