@@ -1,0 +1,61 @@
+@media (min-width: 768px) {
+  .starship-inner-container {
+    padding: 50px;
+
+    .starship-container {
+      display: flex;
+
+      > div{
+        width: 33%;
+      }
+    }
+  }
+}
+
+.starship-main-container {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-image: url('./images/bg.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .starship-inner-container {
+    padding: 20px;
+
+    .starship-logo-container {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .starship-content {
+      color: #ffe820;
+      margin-top: 30px;
+      text-align: center;
+
+      .starship-content-trophy {
+        color: #ffad00;
+        font-size: 25px;
+      }
+    }
+
+    .starship-container {
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid #ccc;
+      padding: 30px;
+      margin: 10px;
+      color: #ffe820;
+
+      .starship-trophy {
+        padding-left: 10px;
+        color: #ffad00;
+      }
+
+      .starship-img {
+        max-width: 100%;
+      }
+    }
+  }
+}
